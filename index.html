@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="bg.png" alt="Background wave">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="logo.png" alt="Logo">
+        </nav>
+
+        <div class="main-content">
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img1.png" alt="Slide 1"></div>
+                        <div class="swiper-slide"><img src="img2.png" alt="Slide 2"></div>
+                        <div class="swiper-slide"><img src="img3.png" alt="Slide 3"></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>The Pista Nuts</h1>
+                <p>"Fuel Your Day with Pista Power Little Nuts,Big Benefits!".</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="img4.png" alt="Organic Image">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img5.png" alt="Affordable Image">
+                </div>
+                <div class="inner-box">
+                    <h3>Not Expensive</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img6.png" alt="Healthy Image">
+                </div>
+                <div class="inner-box">
+                    <h3>Super Healthy</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best pistachio nuts, ensuring quality and freshness in every bite. 
+                Our mission is to bring health and taste together, making pistachios an essential part of your daily life. 
+                With a focus on sustainability and natural farming, we strive to create a better and greener future for generations to come.</p>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+    </script>
+</body>
+
+</html>
